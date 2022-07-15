@@ -16,8 +16,6 @@
 import setuptools
 from pathlib import Path
 from distutils.core import setup
-
-
 def _strip(line):
     return line.split(" ")[0].split("#")[0].split(",")[0]
 
